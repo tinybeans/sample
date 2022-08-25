@@ -1,0 +1,8 @@
+/* id 列の幅を調整 */
+[data-name="id"] {
+    width: 5em;
+}
+/* フィルタ用に追加した列を非表示 */
+[data-name="data"],[data-name="date"] {
+    display: none;
+}
