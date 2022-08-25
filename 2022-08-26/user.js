@@ -64,8 +64,8 @@
                     $field.trigger('MTAppShowSelectedItems');
                 },
                 jsontable: {
-                    header: { id: 'ID', label: 'タイトル' },
-                    headerOrder: ['id', 'label'],
+                    header: { id: 'ID', label: 'タイトル', data: 'データ', date: '公開日' },
+                    headerOrder: ['id', 'label', 'data', 'date'],
                     itemsRootKey: 'items',
                     listingTargetKey: 'id',
                     listingCheckboxType: 'checkbox',
